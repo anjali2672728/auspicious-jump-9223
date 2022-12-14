@@ -1,0 +1,122 @@
+ /* top part */
+ .top {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+ }
+
+ .tp {
+     display: flex;
+     color: white;
+     gap: 20px;
+     justify-content: center;
+     font: sans-serif arial;
+ }
+
+ /* .tp2{
+    display: flex;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+    font-family: sans-serif;
+ } */
+
+ .ACH {
+     color: white;
+     padding-top: 15px;
+ }
+
+ .preheading {
+     font: Helvetica, Arial, sans-serif;
+ }
+/* 2nd part */
+ #div {
+     justify-content: end;
+     display: flex;
+     background-color: white;
+     color: rgb(30, 169, 169);
+     gap: 10px;
+ }
+
+ button {
+     background-color: white;
+     border: 0px;
+     color: rgb(30, 169, 169);
+     font-size: 10px;
+ }
+ /* 3rd part */
+ .pun{
+    text-decoration: none;
+ }
+ .antro{
+    text-decoration: none;
+ }
+ 
+#main2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:3px;
+    justify-content: flex-start;
+}
+form.submit {
+    border: none;
+    padding: 0;
+  }
+  
+input.submit {
+    background-image: url('https://cdn-icons-gif.flaticon.com/6569/6569137.gif' );
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 220px;
+
+  }
+  #main2>div:nth-child(1){
+    width: 30px;
+    text-align: center;
+  }
+  #main2>div:nth-child(2){
+    width: 160px;
+    text-align: center;
+    padding-top: 10px;
+    
+  }
+  #main2>div:nth-child(3){
+    width: 150px;
+    text-align: center ;
+    padding-top: 10px;
+    
+  }
+  #main2>div:nth-child(4){
+    width: 880px;
+    display: flex;
+    justify-content: end;
+    
+    
+  }
+  input{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  #third{
+    gap: 15px;
+  }
+#div4{
+    
+    border: 1px black;
+    font-size: 10px;
+    background-color: white;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    
+    
+
+}
+#div4 > a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+} 
+  body{
+    background-color: rgb(246, 246, 237);
+  }

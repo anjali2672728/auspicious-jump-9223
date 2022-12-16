@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    background: white;
+    margin: 6% auto;
+    position: relative;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 3px #9AFBFA;
+    border-radius:35px ;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: 0;
+
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #9AFBFA,#D071F9);
+    border-radius: 30px;
+    background-color: transparent;
+    transition: 1s;
+    
+}
+
+.social-media{
+    margin:30px auto ;
+    text-align: center;
+
+}
+
+.social-media img{
+    width: 30px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px 0 #7f7f7f;
+    cursor: pointer;
+    border-radius:50% ;  
+}
+
+.login-form{
+    border: 0 solid black;
+    top: 180px;
+    position: absolute;
+    width: 280px;
+   transition: 1s;
+
+}
+.form-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    /* border-top:0 ;
+    border-left: 0;
+    border-right: 0;
+    border: 2px #999; */
+    outline: none;
+    background: transparent;
+
+
+}
+.submit{
+    width: 85%;
+    padding:10px 35px ;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #9AFBFA,#D071F9);
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+
+}
+.checkbox{
+    margin: 30px 5px;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    position: absolute;
+    bottom: 64px;
+}
+
+#login{
+    left: 50px;
+
+}
+#registor{
+    left: 450px;
+}

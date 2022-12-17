@@ -128,7 +128,7 @@ margin: auto;
    background-color: white;
    height: 30px;
    padding-left: 20px;
-   padding-top: 10px;
+   /* padding-top: 10px; */
    font-family: sans-serif;
  }
 
@@ -141,7 +141,7 @@ margin: auto;
  }
 
  body {
-   background-color: rgb(246, 246, 237);
+   background-color: white;
  }
 
  /*-------------------------------- day3 -------------------------------------------------*/

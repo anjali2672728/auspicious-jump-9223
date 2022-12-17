@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    z-index: 100;
+}
+
+.tp {
+    display: flex;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+    font: sans-serif arial;
+}
+
+
+
+.ACH {
+    color: white;
+    padding-top:5px;
+}
+
+#M {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.preheading {
+    font: Helvetica, Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* 2nd part */
+#div {
+    justify-content: end;
+    display: flex;
+    background-color: white;
+    color: rgb(30, 169, 169);
+    gap: 10px;
+}
+
+button {
+    background-color: white;
+    border: 0px;
+    color: rgb(30, 169, 169);
+    font-size: 13px;
+}
+
+/* 3rd part */
+.pun {
+    text-decoration: none;
+}
+
+.antro {
+    text-decoration: none;
+}
+
+#main2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3px;
+    justify-content: flex-start;
+
+}
+
+form.submit {
+    border: none;
+    padding: 0;
+}
+
+input.submit {
+    background-image: url('https://cdn-icons-gif.flaticon.com/6569/6569137.gif');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 220px;
+
+}
+
+#main2>div:nth-child(1) {
+    width: 30px;
+    text-align: center;
+}
+
+#main2>div:nth-child(2) {
+    width: 160px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#main2>div:nth-child(3) {
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#main2>div:nth-child(4) {
+    width: 1155px;
+    display: flex;
+    justify-content: end;
+
+
+}
+
+#main2 {
+    z-index: 100;
+    position: sticky;
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#third {
+    gap: 15px;
+
+}
+
+#div4 {
+    z-index: 100;
+    position: sticky;
+    font-size: 10px;
+    background-color: white;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+#div4>a {
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    z-index: 100;
+    position: sticky;
+}
+
+ul {
+    list-style: none;
+    background: white;
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: start;
+    font-size: 13px;
+    font-family: sans-serif;
+
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    background: rgb(247, 246, 246);
+    position: absolute;
+    width: 200px;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: white;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+/* ==================================================================================*/
+/* ======================footer=============================== */
+#foot {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 20px;
+    
+  }
+ 
+  #btn {
+    background-color: rgb(37, 37, 136);
+    color: white;
+    margin-top: 60px;
+    height: 35px;
+    margin-left: 10px;
+    width: 70px;
+  }
+ 
+  #inp {
+     margin-top: 60px;
+    height: 30px;
+    width: 300px;
+  }
+ 
+  #para {
+    padding-left: 80px;
+    padding-top: 10px;
+ 
+  }
+ 
+  #th {
+    background-color: rgb(242, 241, 241);
+    margin-top: 40px;
+  }
+ 
+  #last {
+    display: flex;
+    background-color: rgb(242, 241, 241);;
+    gap: 80px;
+    padding-left: 80px;
+    padding-top: 30px;
+  }
+ 
+  #lc {
+    padding-top: 20px;
+  }
+ 
+  #mail {
+    padding-top: 20px;
+  }
+ 
+  #ex {
+    padding-left: 100px;
+  }
+ 
+  #icon {
+    padding-left: 550px;
+    padding-top: 20px;
+  }
+ 
+  #icon1 {
+    padding-left: 20px;
+    padding-bottom: 3px;
+  }
+ 
+  #icon2 {
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+ 
+  #icon3 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+ 
+  #icon4 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+ 
+  #icon5 {
+    padding-left: 20px;
+    padding-bottom: 8px;
+  }
+ 
+  #dbar {
+    height: 70px;
+    width: 1300px;
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+ 
+  #ls {
+    display: flex;
+    padding-left: 500px;
+    color: gray;
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  #sign{
+    padding-top: 30px;
+  }
+
+  .row{
+    padding-bottom: 10px;
+  }
+
+
+.sin{
+    text-decoration: none;
+}
+ 

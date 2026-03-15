@@ -83,3 +83,7 @@ Anjali - Initial work - YourGitHub
 Font Awesome for the amazing icons
 Google Fonts for typography
 Inspiration from modern e-commerce platforms
+
+
+##Image
+<img src="Homepage_of_websites.png" >
